@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="exampletest2(failed)">
+    <classes>
+      <class name="com.assignment52.TestNGSuiteTest.Test2">
+        <methods>
+          <include name="testPrint2Message"/>
+        </methods>
+      </class> <!-- com.assignment52.TestNGSuiteTest.Test2 -->
+    </classes>
+  </test> <!-- exampletest2(failed) -->
+  <test name="exampletest3(failed)">
+    <classes>
+      <class name="com.assignment52.TestNGSuiteTest.Test3">
+        <methods>
+          <include name="testFinalMessage"/>
+        </methods>
+      </class> <!-- com.assignment52.TestNGSuiteTest.Test3 -->
+    </classes>
+  </test> <!-- exampletest3(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
